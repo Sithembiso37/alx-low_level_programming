@@ -10,9 +10,12 @@
 int main(void)
 {
 	int n;
-	int ldig = n % 10;
+	int ldig;
+
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
+
+	ldig = n % 10;
 
 	if (ldig > 5)
 {
