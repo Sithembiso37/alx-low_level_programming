@@ -1,6 +1,10 @@
 #include "main.h"
 #include <stdio.h>
 
+/**
+ * times_table - prints 9 times table
+ */
+
 void times_table(void)
 {
 	int row, column, result;
@@ -19,6 +23,6 @@ void times_table(void)
 					printf(", ");
 			}
 		}
-		printf("/n");
+		printf("\n");
 	}
 }
